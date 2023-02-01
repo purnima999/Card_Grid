@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    :root {
+        font-size: 20px;
+        box-sizing: inherit;
+    }
+
+    body {
+        font: 1em;
+        color: #224;
+        background: url(./images/bold_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+        justify-content: center;
+    }
+
+    .glaaMorphismCard {
+        height: 300px;
+        max-width: 500px;
+        padding: 35px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, .45);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, .25);
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, .25); */
+        /* backdrop-filter: blur(15px); */
+        /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25); */
+        box-shadow:
+            inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+            inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+            0 0 10px 1px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(15px) saturate(1000%);
+        background: linear-gradient(120deg,
+                rgba(255, 255, 255, .25),
+                rgba(255, 255, 255, .75), 70%,
+                rgba(255, 255, 255, .25));
+    }
+</style>
+
+<body>
+    <div class="glaaMorphismCard">
+        <p>Glassmorphism</p>
+    </div>
+</body>
+
+</html>

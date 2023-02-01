@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    :root {
+        font-size: 20px;
+        box-sizing: inherit;
+    }
+
+    body {
+        height: auto;
+        width: 100vh;
+        background: url(./images/bg_2.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .card-stack {
+        position: relative;
+        height: auto;
+        width: 100vh;
+        padding: 1.5%;
+        /* background-color: yellow; */
+        /* margin: 6rem -15rem  0rem 15rem; */
+    }
+
+    .card {
+        /* background-color: white;
+        position: absolute;
+        z-index: 9000;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 15em;
+        height: 7.5em;
+        color: hsl(280, 100, 10);
+        border: 1px solid hsl(0, 0, 100, 0.25);
+        border-radius: .25em;
+        box-shadow: 0 0 1em .5em hsl(0, 0, 0, 0.25);
+
+        cursor: pointer;
+        ; */
+        position: absolute;
+        z-index: 9000;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 100%;
+        max-width: 15em;
+        height: 7.5em;
+        padding: 2em;
+
+        color: hsl(280, 100, 10);
+        border: 1px solid hsl(0, 0, 100, 0.25);
+        border-radius: .25em;
+        box-shadow: 0 0 1em .5em hsl(0, 0, 0, 0.25);
+
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="card-stack">
+        <div class="card">
+            <p>#card1</p>
+            <p class="card-footer">cick card to select </p>
+        </div>
+
+        <div class="card">
+            <p>#card2</p>
+            <p class="card-footer">cick card to select </p>
+        </div>
+
+        <div class="card">
+            <p>#card3</p>
+            <p class="card-footer">cick card to select </p>
+        </div>
+    </div>
+</body>
+
+</html>
