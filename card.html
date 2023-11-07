@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Login and Signup Form </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+
+
+</head>
+
+<body>
+    <section class="container forms">
+        <style>
+        </style>
+        <div id="packageDetails">
+            <section class="destinations">
+                <h2>Select Any one of below packages</h2>
+                <div class="card-container">
+                    <div class="card-sections">
+                        <h3>Silver Package</h3>
+                        <div class="card sec-one one">
+                            <h6><b> FLEXI PACKAGE</b></h6>
+                            <h5>WEEKEND TRIP - GOA 2<b>N</b></h5>
+                            <div class="sec-two">
+                                <img src="images/e1.jpg" alt="Card 1">
+                                <!-- <div class="img-text">SILVER</div> -->
+                                <ul class="sec-three">
+                                    <li>SILVER</li>
+                                    <li>3 STAR</li>
+                                </ul>
+                            </div>
+                            <div class="sec-four-list">
+                                <ul>
+                                    <li><i class="fa fa-plane" aria-hidden="true"></i>
+                                        1 Flights</li>
+                                    <li><i class="fa fa-building" aria-hidden="true"></i>
+                                        <div>2 Hotel</div>
+                                    </li>
+                                    <li class="disabled"><i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                        1 Activity</li>
+                                    <li><i class="fa fa-car" aria-hidden="true"></i>
+                                        1 Transfer</li>
+                                </ul>
+                            </div>
+                            <div class="sec-five"><span>2N</span>GOA</div>
+                            <p>PHOTO SHOOT</p>
+                            <button onclick="bookingDetails(1)">Book</button>
+                        </div>
+                    </div>
+
+                    <!-- gold package -->
+                    <div class="card-sections">
+                        <h3>Gold Package</h3>
+                        <div class="card sec-one two">
+                            <h6><b> FLEXI PACKAGE</b></h6>
+                            <h5>GLORIUS GOA DELIGHT 2<b>N</b></h5>
+                            <div class="sec-two">
+                                <img src="images/e2.jpg" alt="Card 1">
+                                <!-- <div class="img-text">SILVER</div> -->
+                                <ul class="sec-three">
+                                    <li>GOLD</li>
+                                    <li>4 STAR</li>
+                                </ul>
+                            </div>
+                            <div class="sec-four-list">
+                                <ul>
+                                    <li><i class="fa fa-plane" aria-hidden="true"></i>
+                                        1 Flights</li>
+                                    <li><i class="fa fa-building" aria-hidden="true"></i>
+                                        <div>2 Hotel</div>
+                                    </li>
+                                    <li class="disabled"><i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                        1 Activity</li>
+                                    <li><i class="fa fa-car" aria-hidden="true"></i>
+                                        1 Transfer</li>
+                                </ul>
+                            </div>
+                            <div class="sec-five"><span>2N</span>GOA</div>
+                            <p>SIGHT SEEING INCLUDED</p>
+                            <button onclick="bookingDetails(1)">Book</button>
+                        </div>
+                    </div>
+
+                    <!-- PREMIUM PACKAGE -->
+                    <div class="card-sections">
+                        <h3>Premium Package</h3>
+                        <div class="card sec-one three">
+                            <h6><b> FLEXI PACKAGE</b></h6>
+                            <h5>LUXURY SPECIAL FLIGHT INCLUSIVE DEAL 3<b>N</b></h5>
+                            <div class="sec-two">
+                                <img src="images/e3.jpg" alt="Card 1">
+                                <!-- <div class="img-text">PREMIUM</div> -->
+                                <ul class="sec-three">
+                                    <li>PREMISUM</li>
+                                    <li>5 STAR</li>
+                                </ul>
+                            </div>
+                            <div class="sec-four-list">
+                                <ul>
+                                    <li><i class="fa fa-plane" aria-hidden="true"></i>
+                                        1 Flights</li>
+                                    <li><i class="fa fa-building" aria-hidden="true"></i>
+                                        <div>2 Hotel</div>
+                                    </li>
+                                    <li class="disabled"><i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                        1 Activity</li>
+                                    <li><i class="fa fa-car" aria-hidden="true"></i>
+                                        1 Transfer</li>
+                                </ul>
+                            </div>
+                            <div class="sec-five"><span>3N</span>GOA</div>
+                            <p>SIGHT SEEING INCLUDED</p>
+                            <p>DOLPHIN TRIP</p>
+                            <button onclick="bookingDetails(1)">Book</button>
+                        </div>
+                    </div>
+                    <!-- FAMILY PACK -->
+                    <div class="card-sections">
+                        <h3>FAMILY Package</h3>
+                        <div class="card sec-one four">
+                            <h6><b> FLEXI PACKAGE</b></h6>
+                            <h5>CHILING IN ACRON WATER FRONT 4<b>N</b></h5>
+                            <div class="sec-two">
+                                <img src="images/e4.jpg" alt="Card 1">
+                                <!-- <div class="img-text">FAMILY PACKAGE</div> -->
+                                <ul class="sec-three">
+                                    <li>FAMILY PACK</li>
+                                    <li>5 STAR</li>
+                                </ul>
+                            </div>
+                            <div class="sec-four-list">
+                                <ul>
+                                    <li><i class="fa fa-plane" aria-hidden="true"></i>
+                                        1 Flights</li>
+                                    <li><i class="fa fa-building" aria-hidden="true"></i>
+                                        <div>2 Hotel</div>
+                                    </li>
+                                    <li class="disabled"><i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                        1 Activity</li>
+                                    <li><i class="fa fa-car" aria-hidden="true"></i>
+                                        1 Transfer</li>
+                                </ul>
+                            </div>
+                            <div class="sec-five"><span>4N</span>GOA</div>
+                            <p>SIGHT SEEING INCLUDED</p>
+                            <p>PHOTO SHOOT</p>
+                            <p>WATER RIDES</p>
+                            <button onclick="bookingDetails(1)">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+  <style>
+section.destinations {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    color: #333;
+}
+
+.card.sec-one.one {
+    border: 10px solid rgba(168, 168, 165, 0.779);
+}
+
+.card.sec-one.two {
+    border: 10px solid rgb(205, 205, 21);
+}
+.card.sec-one.three {
+    border: 10px solid rgba(245, 245, 6, 0.982);
+}
+.card.sec-one.four {
+    border: 10px solid rgba(245, 100, 100, 0.597);
+}
+
+
+
+.card.sec-one h6 {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 2.5rem;
+    padding: 0.8rem 1rem 0 1rem;
+    border-bottom-color: hsla(89, 43%, 51%, 0.3);
+    border-width: 20px;
+}
+
+/* 
+.card-image {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+.card-image .img-text {
+    /* position: absolute;
+    bottom: 18px;
+    left: 16px;
+    background-color: #8b8b8b;
+    width: 85%;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 1rem; */
+    /* margin: 40px -24px -24px -24px; */
+}
+
+/* .card h3 {
+    margin: 10px 0;
+} */
+
+.sec-three {
+    display: flex;
+    color: #cbc401;
+    list-style: none;
+    padding: 0 0 0.8rem 0;
+    font-weight: 600;
+}
+
+.sec-three li {
+    padding-left: 2rem;
+    font-size: 0.8rem;
+
+}
+
+.card-sections h3 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.sec-four-list ul {
+    list-style: none;
+    display: flex;
+    padding: 0.2rem;
+}
+
+.sec-four-list ul li {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.sec-four-list ul .disabled {
+    color: #b2aeae;
+}
+
+.sec-five {
+    text-align: left;
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.sec-five span {
+    color: rgb(203, 1, 1);
+    padding-right: 0.3rem;
+}
+
+.card p {
+    font-size: 0.7rem;
+    text-align: left;
+    padding: 0 0 0.3rem 0.7rem;
+}
+
+.card button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.sec-four-list i{
+    font-size: 1.8rem;
+    margin: 0.6rem;
+}
+    
+  </style>
+    <!-- JavaScript -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
